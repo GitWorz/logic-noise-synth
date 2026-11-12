@@ -185,9 +185,9 @@ Differences from the reference circuit:
 
 | Photo / video | File |
 |---|---|
-| Finished board, top | `media/photos/v1_soldered_top.jpg` *(to add)* |
-| Finished board, solder side | `media/photos/v1_soldered_bottom.jpg` *(to add)* |
-| **Proof of functioning** (video with sound) | `media/video/v1_soldered_working.mp4` *(to add)* |
+| Finished board, top | `media/photos/v1_soldered_top.jpg`|
+| Finished board, solder side | `media/photos/v1_soldered_bottom.jpg`|
+| **Proof of functioning** (video with sound) | `media/video/v1_soldered_working.mp4`|
 
 ---
 
