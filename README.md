@@ -195,9 +195,9 @@ Differences from the reference circuit:
 
 Files: [`kicad/circuits_son.kicad_sch`](kicad/circuits_son.kicad_sch), [`kicad/circuits_son.kicad_pcb`](kicad/circuits_son.kicad_pcb), project [`kicad/circuits_son.kicad_pro`](kicad/circuits_son.kicad_pro). Open the `.kicad_pro` in KiCad.
 
-![PCB layout preview](media/kicad/pcb_preview.png)
-
-*Preview generated from the `.kicad_pcb` file (pads, tracks, GND pours, board outline). Export the real 3D view and plots from KiCad for final documentation: `media/kicad/pcb_3d.png`, `media/kicad/schematic.png` (to add).*
+| PCB layout (KiCad) | 3D view (KiCad) |
+|---|---|
+| ![KiCad PCB layout](media/kicad/pcb_layout.png) | ![KiCad 3D view](media/kicad/pcb_3d.png) |
 
 ### Board specifications
 
@@ -288,7 +288,7 @@ Tinkercad component list: [`bom/Composants_tinkercad.csv`](bom/Composants_tinker
 └── media/
     ├── audio/                          # Recordings
     ├── hand-drawn/                     # Paper schematics
-    ├── kicad/                          # PCB preview / 3D / plots
+    ├── kicad/                          # PCB layout + 3D view
     ├── photos/                         # Breadboard + soldered board
     ├── reference/                      # Reference schematic (FINAL)
     ├── scope/                          # Oscilloscope screenshots
