@@ -203,11 +203,11 @@ Files: [`kicad/circuits_son.kicad_sch`](kicad/circuits_son.kicad_sch), [`kicad/c
 
 | Parameter | Value |
 |---|---|
-| Size | 100 × 80 mm |
+| Size | 100 × 100 mm |
 | Layers | 2 (F.Cu / B.Cu), 1.6 mm FR-4 |
 | Copper pours | GND on both layers |
 | Track width | 0.4 mm (Default net class), clearance 0.25 mm |
-| Components | All through-hole (DIP-8, DIP-14, DIP-16, 5 mm LEDs, radial caps, Bourns 3386P trimmers) |
+| Components | All through-hole (DIP-8, DIP-14, DIP-16, 5 mm LEDs, radial caps, RM-065 vertical potentiometers) |
 | Mounting | 4 × M3 holes (H1–H4) |
 | Power input | J1, 2-pin 2.54 mm header (3.3 V / GND) |
 
@@ -250,7 +250,7 @@ KiCad V2 (from the schematic):
 | U3 | 1 | 74HC14 hex Schmitt inverter | DIP-14 |
 | U4 | 1 | 74HC595 8-bit shift register | DIP-16 |
 | U2 | 1 | 741 op-amp | DIP-8 |
-| RPOT2–RPOT5 | 4 | 10 kΩ potentiometer | Bourns 3386P |
+| RPOT2–RPOT5 | 4 | 10 kΩ potentiometer | RM-065 vertical (project footprint `circuits_son:Potentiometre_RM-065_Vertical`) |
 | C2 | 1 | 33 µF electrolytic | Radial D5 mm |
 | C3, C6, C7 | 3 | 22 µF electrolytic | Radial D5 mm |
 | C4, C5 | 2 | 220 µF electrolytic | Radial D6.3 mm |
@@ -283,7 +283,8 @@ Tinkercad component list: [`bom/Composants_tinkercad.csv`](bom/Composants_tinker
 │   ├── circuits_son.kicad_pro
 │   ├── circuits_son.kicad_prl
 │   ├── circuits_son.kicad_sch
-│   └── circuits_son.kicad_pcb
+│   ├── circuits_son.kicad_pcb
+│   └── fp-lib-table                    # project footprint library
 └── media/
     ├── audio/                          # Recordings
     ├── hand-drawn/                     # Paper schematics

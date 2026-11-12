@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "circuits_son")(type "KiCad")(uri "${KIPRJMOD}/circuits_son.pretty")(options "")(descr "Empreintes du projet"))
+)
