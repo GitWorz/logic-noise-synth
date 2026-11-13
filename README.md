@@ -181,13 +181,17 @@ Differences from the reference circuit:
 
 ## 6. Soldered synth (V1)
 
+The breadboard circuit was transferred onto a 2.54 mm perfboard: 74HC14 oscillators, 74HC595 shift register with its LED row, 8-pin audio amplifier, two front-panel potentiometers and a speaker on a twisted pair. Connections are made point-to-point with wire on the solder side.
+
 ![Soldering the synth](media/photos/soldering.jpg)
 
-| Photo / video | File |
+| Top (components) | Solder side | With speaker |
+|---|---|---|
+| ![Soldered board, top](media/photos/v1_soldered_top.jpg) | ![Soldered board, solder side](media/photos/v1_soldered_bottom.jpg) | ![Soldered board with speaker](media/photos/v1_soldered_speaker.jpg) |
+
+| Proof of functioning | File |
 |---|---|
-| Finished board, top | `media/photos/v1_soldered_top.jpg`|
-| Finished board, solder side | `media/photos/v1_soldered_bottom.jpg`|
-| **Proof of functioning** (video with sound) | `media/video/v1_soldered_working.mp4`|
+| Video with sound | `media/video/v1_soldered_working.mp4` *(to add)* |
 
 ---
 
